@@ -32,9 +32,13 @@ Sebagai pengguna, saya dapat:
   
 ### 4. Tampilan Website
 
-<img width="1920" height="1020" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/82323e69-7a06-486d-8899-d220a5ad05a3" />
+1) Tampilan depan untuk pengisian nama Taruna, NPM, dan keterangan laptop
+<img width="1920" height="971" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/20631c53-8347-4f6a-8c3e-485bf3a0e0e6" />
 
-<img width="1920" height="1020" alt="Screenshot 2026-02-01 194643" src="https://github.com/user-attachments/assets/9710acb9-e769-430a-a6d5-06840051ffe0" />
+2) Tampilan riwayat yang menampilkan nama Taruna, NPM, keterangan, dan aksi untuk pengembalian laptop dan penambahan jam malam
+   <img width="1920" height="968" alt="Screenshot 2026-02-01 194643" src="https://github.com/user-attachments/assets/ef14da0d-b8df-438e-891c-6d254fdb2a0c" />
 
-<img width="1920" height="1020" alt="Screenshot 2026-02-01 194654" src="https://github.com/user-attachments/assets/560674e5-e200-4bcb-ad84-78f8ff1e2c1c" />
+4) Tampilan pada tab jam malam untuk menambahkan rentang waktu jam malam
+   <img width="1920" height="969" alt="Screenshot 2026-02-01 194654" src="https://github.com/user-attachments/assets/5390147e-1ccb-455a-a678-9ad9535c38f0" />
+
 
