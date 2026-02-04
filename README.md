@@ -29,3 +29,12 @@ Sebagai pengguna, saya dapat:
    - Dashboard Personal taruna
    - Riwayat Peminjaman dan pengembalian lengkap
    - Status Saat Ini laptop dipinjam
+  
+### 4. Tampilan Website
+
+<img width="1920" height="1020" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/82323e69-7a06-486d-8899-d220a5ad05a3" />
+
+<img width="1920" height="1020" alt="Screenshot 2026-02-01 194643" src="https://github.com/user-attachments/assets/9710acb9-e769-430a-a6d5-06840051ffe0" />
+
+<img width="1920" height="1020" alt="Screenshot 2026-02-01 194654" src="https://github.com/user-attachments/assets/560674e5-e200-4bcb-ad84-78f8ff1e2c1c" />
+
