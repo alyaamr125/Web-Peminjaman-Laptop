@@ -75,14 +75,36 @@ Website aplikasi peminjaman dan pengembalian laptop taruna adalah sistem manajem
 ### 🔐 Akun Default
 
 ### ⚠️ Penyelesaian Masalah
+| Kesalahan | Solusi |
+| :--- | :--- |
+| `SQLSTATE: no such table` | Jalankan `php artisan migrate` |
+| `Connection refused` | Pastikan MySQL di Laragon/XAMPP sudah aktif |
+| `Class not found` | Jalankan `composer dump-autoload` |
+| `Internal Server Error` | Cek file `.env` dan pastikan database sudah terhubung |
 
 ### 🗂 Struktur Database
+- **peminjamans** (atau **loans**):
+  - `id`: Primary Key
+  - `nama`: Nama Taruna peminjam
+  - `npm`: Nomor Pokok Mahasiswa
+  - `keterangan`: Kategori laptop (Normal, Lab, dll)
+  - `tgl_pinjam`: Waktu mulai peminjaman
+  - `tgl_kembali`: Waktu pengembalian (nullable)
+  - `jam_malam`: Rentang waktu jam malam (format: HH:mm - HH:mm)
+  - `status`: Status saat ini (Dipinjam / Sudah Kembali)
 
 ### 🔎 Pengujian
+Jalankan semua tes:
+
+php artisan test 
 
 ### 📌 Titik Akhir API REST
 
+
 ### 📜 Lisensi
+    Lisensi Apache
+                           Versi 2.0, Januari 2004
+                        http://www.apache.org/licenses/
 
 ### ✏️ Penulis 
 Alyaa Mahiraah Ramadhani
