@@ -72,7 +72,6 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 
 ### 🛠 Instalasi
 
-### 🔐 Akun Default
 
 ### ⚠️ Penyelesaian Masalah
 | Mistake | Solusi |
