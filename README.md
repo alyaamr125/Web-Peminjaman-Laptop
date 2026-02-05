@@ -45,12 +45,12 @@ Sebagai pengguna, saya dapat:
 | **5. Pengujian** | Uji coba form dan notifikasi SweetAlert | Laporan Bug, Kasus Uji |
 
 ### ⏱️ Garis Waktu Proyek (8 Minggu)
-Minggu 1: Planning & Analysis (Definisi aturan peminjaman dan jam malam).
-Minggu 2: Design (ERD Database, Desain UI warna merah-biru-putih).
-Minggu 3-4: Development Sprint 1 (Fitur Utama: Form Pinjam, Riwayat, Notifikasi SweetAlert).
-Minggu 5-6: Development Sprint 2 (Fitur Tambahan: Modal Jam Malam, Pengembalian Otomatis).
-Minggu 7: Development Sprint 3 (Integrasi REST API dan optimasi database).
-Minggu 8: Testing, Security Audit (Validasi data NPM), & Deployment ke Laragon.
+- Minggu 1: Planning & Analysis (Definisi aturan peminjaman dan jam malam).
+- Minggu 2: Design (ERD Database, Desain UI warna merah-biru-putih).
+- Minggu 3-4: Development Sprint 1 (Fitur Utama: Form Pinjam, Riwayat, Notifikasi SweetAlert).
+- Minggu 5-6: Development Sprint 2 (Fitur Tambahan: Modal Jam Malam, Pengembalian Otomatis).
+- Minggu 7: Development Sprint 3 (Integrasi REST API dan optimasi database).
+- Minggu 8: Testing, Security Audit (Validasi data NPM), & Deployment ke Laragon.
 
 ### 🛠 Instalasi
 
@@ -62,4 +62,9 @@ Minggu 8: Testing, Security Audit (Validasi data NPM), & Deployment ke Laragon.
 
 ### 🔎 Pengujian
 
-### 📌 Titik Akhir REST API
+### 📌 Titik Akhir API REST
+
+### 📜 Lisensi
+
+### ✏️ Penulis 
+Alyaa Mahiraah Ramadhani
