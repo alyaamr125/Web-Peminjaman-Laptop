@@ -1,4 +1,4 @@
-# LAPORAN KEMAJUAN - APLIKASI PEMINJAMAN LAPTOP
+<img width="1920" height="971" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/00e6c48c-a516-45dd-8b4f-9952269cf84a" /><img width="1920" height="971" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/00e6c48c-a516-45dd-8b4f-9952269cf84a" /># LAPORAN KEMAJUAN - APLIKASI PEMINJAMAN LAPTOP
 ALYAA MAHIRAAH | II RKS A | 2423101997
 
 ### 📂 Deskripsi
@@ -37,7 +37,26 @@ Website aplikasi peminjaman dan pengembalian laptop taruna adalah sistem manajem
   
 ### 📊 Diagram UML
 
-### 🖥 Maket
+### 🖥 Maket/Tampilan Website
+1. Tampilan menu untuk mengisi identitas Taruna (Nama, NPM, dan Keterangan)
+   <img width="1920" height="971" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/0f8cfc1f-0f82-4732-8688-7820086b2279" />
+<img width="1920" height="971" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/0f8cfc1f-0f82-4732-8688-7820086b2279" />
+
+2. Tampilan riwayat peminjaman laptop yang berisi nama, NPM, tanggal pinjam dan kembali, serta aksi untuk fitur pengembalian dan penambahan jam malam
+<img width="1920" height="968" alt="Screenshot 2026-02-01 194643" src="https://github.com/user-attachments/assets/ec006d65-5a98-494b-b045-9b48699cc926" />
+<img width="1920" height="968" alt="Screenshot 2026-02-01 194643" src="https://github.com/user-attachments/assets/ec006d65-5a98-494b-b045-9b48699cc926" />
+
+3. Tampilan tab jika ingin mengajukan penambahan jam malam dalam rentang waktu tertentu
+   <img width="1920" height="969" alt="Screenshot 2026-02-01 194654" src="https://github.com/user-attachments/assets/2800a645-6ecb-4b86-ae5f-5dbd8838ee54" />
+<img width="1920" height="969" alt="Screenshot 2026-02-01 194654" src="https://github.com/user-attachments/assets/2800a645-6ecb-4b86-ae5f-5dbd8838ee54" />
+
+4. Tampilan notifikasi berhasil dipinjam dan kembali
+   
+   <img width="1920" height="963" alt="Screenshot 2026-<img width="1919" height="961" alt="Screenshot 2026-02-05 133839" src="https://github.com/user-attachments/assets/e42d4144-afc5-4076-9081-8efa5183e642" />
+<img width="1919" height="961" alt="Screenshot 2026-02-05 133839" src="https://github.com/user-attachments/assets/e42d4144-afc5-4076-9081-8efa5183e642" />
+01-31 214705" src="https://github.com/user-attachments/assets/c87ad0bb-024f-436c-8707-fec1853d2357" />
+<img width="1920" height="963" alt="Screenshot 2026-01-31 214705" src="https://github.com/user-attachments/assets/c87ad0bb-024f-436c-8707-fec1853d2357" />
+
 
 ### 🔄 SDLC (Siklus Hidup Pengembangan Perangkat Lunak)
 
