@@ -5,30 +5,24 @@ ALYAA MAHIRAAH | II RKS A | 2423101997
 Website aplikasi peminjaman dan pengembalian laptop taruna adalah sistem manajemen digital terintegrasi yang dirancang khusus untuk mempermudah proses peminjaman dan pengembalian laptop bagi taruna di sekolah kedinasan, dengan fitur-fitur seperti pendataan inventaris real-time, pelacakan status laptop, pengajuan peminjaman online, pelaporan kerusakan, serta monitoring riwayat pemakaian guna memastikan transparansi, akuntabilitas, dan efisiensi dalam pengelolaan aset teknologi akademi.
 
 ### 🖇 Kisah Pengguna
-Sebagai pengguna, saya dapat:
-1. Menggunakan Akses Peminjaman Laptop dengan Proses Digital dan mudah
-2. Memantau Status dan Ketersediaan Laptop Secara Real-Time
-3. Mengurangi Risiko Keterlambatan Pengembalian dan Sanksi
-4. Melaporkan Kerusakan atau Masalah Teknis Secara Terstruktur
+| PENGENAL | Kisah Pengguna | Prioritas |
+| :--- | :--- | :--- |
+| **AS-01** | Sebagai Taruna, saya ingin menginput data NPM agar sistem mengenali identitas peminjam. | Tinggi |
+| **AS-02** | Sebagai Taruna, saya ingin memilih kategori laptop agar sesuai dengan kebutuhan tugas/lab. | Tinggi |
+| **AS-03** | Sebagai Taruna, saya ingin menerima notifikasi "Berhasil" agar yakin data sudah tersimpan. | Tinggi |
+| **AS-04** | Sebagai Taruna, saya ingin melihat status "Dipinjam" atau "Kembali" untuk memantau tanggungan. | Sedang |
+| **AS-05** | Sebagai Taruna, saya ingin mengajukan jam malam agar bisa menggunakan laptop lebih lama untuk kegiatan seperti akademik maupun organisasi. | Sedang |
+| **AS-06** | Sebagai Admin, saya ingin melihat semua riwayat peminjaman dalam satu tabel yang rapi. | Tinggi |
+| **AS-07** | Sebagai Admin, saya ingin memvalidasi pengembalian laptop agar stok tersedia kembali. | Tinggi |
+| **AS-08** | Sebagai Sistem, saya ingin menyediakan REST API agar data bisa diakses aplikasi lain. | Sedang |
 
 ### 📝 SRS (Spesifikasi Persyaratan Perangkat Lunak)
-1. Manajemen Pengguna & Autentikasi
-   - Login Multi-Role (Taruna, Admin, Supervisor)
-   - Registrasi Otomatis berdasarkan data taruna terpusat
-   - Profil Pengguna dengan data pribadi dan riwayat peminjaman
-   - Manajemen Session & Keamanan (timeout, log aktivitas)
-2. Proses Peminjaman
-   - Pencarian & Filtering laptop tersedia
-   - Form Pengajuan Online dengan tujuan peminjaman
-   - Validasi Kuota peminjaman per taruna
-   - Persetujuan Bertahap (otomatis/manual)
-3. Proses Pengembalian
-   - Form Pengembalian dengan kondisi laptop
-   - Riwayat waktu pengembalian
-4. Riwayat & Monitoring
-   - Dashboard Personal taruna
-   - Riwayat Peminjaman dan pengembalian lengkap
-   - Status Saat Ini laptop dipinjam
+1. **Sistem Autentikasi Data:** Validasi NPM dan Nama Taruna.
+2. **Form Peminjaman:** Input dinamis dengan pilihan kategori (Normal, Lab, dll).
+3. **Manajemen Riwayat:** Tabel dengan status berwarna (Kuning: Dipinjam, Hijau: Selesai).
+4. **Fitur Jam Malam:** Modal popup untuk input rentang waktu tambahan secara spesifik.
+5. **Notifikasi Interaktif:** Menggunakan SweetAlert2 untuk feedback aksi pengguna.
+6. **REST API Endpoint:** Menyediakan data JSON untuk integrasi sistem.
   
 ### 📊 Diagram UML
 
