@@ -1,4 +1,4 @@
-<img width="1920" height="971" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/00e6c48c-a516-45dd-8b4f-9952269cf84a" /><img width="1920" height="971" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/00e6c48c-a516-45dd-8b4f-9952269cf84a" /># LAPORAN KEMAJUAN - APLIKASI PEMINJAMAN LAPTOP
+# LAPORAN KEMAJUAN - APLIKASI PEMINJAMAN LAPTOP
 ALYAA MAHIRAAH | II RKS A | 2423101997
 
 ### 📂 Deskripsi
@@ -51,6 +51,8 @@ Website aplikasi peminjaman dan pengembalian laptop taruna adalah sistem manajem
 <img width="1920" height="969" alt="Screenshot 2026-02-01 194654" src="https://github.com/user-attachments/assets/2800a645-6ecb-4b86-ae5f-5dbd8838ee54" />
 
 4. Tampilan notifikasi berhasil dipinjam dan kembali
+<img width="1919" height="961" alt="Screenshot 2026-02-05 133839" src="https://github.com/user-attachments/assets/4ce58362-5d74-4ecd-81b5-e1137dd82dac" />
+<img width="1919" height="961" alt="Screenshot 2026-02-05 133839" src="https://github.com/user-attachments/assets/4ce58362-5d74-4ecd-81b5-e1137dd82dac" />
    
    <img width="1920" height="963" alt="Screenshot 2026-<img width="1919" height="961" alt="Screenshot 2026-02-05 133839" src="https://github.com/user-attachments/assets/e42d4144-afc5-4076-9081-8efa5183e642" />
 <img width="1919" height="961" alt="Screenshot 2026-02-05 133839" src="https://github.com/user-attachments/assets/e42d4144-afc5-4076-9081-8efa5183e642" />
