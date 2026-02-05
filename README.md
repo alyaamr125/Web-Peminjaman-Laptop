@@ -39,11 +39,19 @@ Sebagai pengguna, saya dapat:
 
 | Fase | Aktivitas | Keluaran |
 | :--- | :--- | :--- |
-| **1. Perencanaan** | Pengumpulan syarat (Nama, NPM, Jam Malam) | PRD, Cerita Pengguna |
+| **1. Perencanaan** | Pengumpulan syarat (Nama, NPM, Keterangan) | PRD, Cerita Pengguna |
 | **2. Analisis** | Spesifikasi sistem dan skema database | Daftar Fitur, Dokumen SRS |
 | **3. Desain** | Desain UI merah-biru dan ERD Database | UML, ERD, Maket UI |
 | **4. Pengembangan** | Coding Laravel dan REST API | Kode Sumber, Dokumentasi API |
 | **5. Pengujian** | Uji coba form dan notifikasi SweetAlert | Laporan Bug, Kasus Uji |
+
+Garis Waktu Proyek (8 Minggu)
+Minggu 1: Planning & Analysis (Definisi aturan peminjaman dan jam malam).
+Minggu 2: Design (ERD Database, Desain UI warna merah-biru-putih).
+Minggu 3-4: Development Sprint 1 (Fitur Utama: Form Pinjam, Riwayat, Notifikasi SweetAlert).
+Minggu 5-6: Development Sprint 2 (Fitur Tambahan: Modal Jam Malam, Pengembalian Otomatis).
+Minggu 7: Development Sprint 3 (Integrasi REST API dan optimasi database).
+Minggu 8: Testing, Security Audit (Validasi data NPM), & Deployment ke Laragon.
 
 ### 7. Instalasi
 
