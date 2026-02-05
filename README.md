@@ -95,8 +95,7 @@ Website aplikasi peminjaman dan pengembalian laptop taruna adalah sistem manajem
 
 ### 🔎 Pengujian
 Jalankan semua tes:
-
-php artisan test 
+`php artisan serve`
 
 ### 📌 Titik Akhir API REST
 
