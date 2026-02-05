@@ -31,3 +31,19 @@ Sebagai pengguna, saya dapat:
    - Status Saat Ini laptop dipinjam
   
 ### 4. Diagram UML
+
+### 5. Maket
+
+### 6. SDLC (Siklus Hidup Pengembangan Perangkat Lunak)
+Fase,Aktivitas,Keluaran
+1. Perencanaan,"Pengumpulan syarat peminjaman (Nama, NPM, Keterangan), alur pengembalian, dan aturan jam malam.","PRD (Product Requirement Document), Cerita Pengguna."
+2. Analisis,"Penentuan spesifikasi sistem (Laravel, Laragon), skema database, dan prioritas fitur (API, Notifikasi).","Daftar Fitur, Dokumen SRS (Software Requirement Specification)."
+3. Desain,"Pembuatan skema database (loans/peminjamans), desain UI warna merah-biru, dan maket (mockup) form.","UML, ERD Database, Maket UI (Figma/Adobe XD)."
+4. Pengembangan,"Coding backend (Controller, Migration, Route), integrasi frontend (Bootstrap), dan pembuatan REST API.","Kode sumber (Source Code), Dokumentasi API."
+5. Pengujian,"Uji coba input data Taruna, validasi notifikasi SweetAlert, dan pengujian akses REST API via Postman.","Laporan Bug, Kasus Uji (Test Case)."
+6. Penempatan,Konfigurasi virtual host di Laragon/XAMPP dan migrasi database ke lingkungan produksi.,Aplikasi Langsung (Live Application).
+7. Pemeliharaan,Perbaikan bug jika waktu tidak sesuai (timezone) dan pembaruan fitur riwayat peminjaman.,"Patch keamanan, Pembaruan Fitur."
+
+### 7. Instalasi
+
+### 8.
