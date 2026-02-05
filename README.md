@@ -2,7 +2,7 @@
 ALYAA MAHIRAAH | II RKS A | 2423101997
 
 ### 📂 Deskripsi
-Website aplikasi peminjaman dan pengembalian laptop taruna adalah sistem manajemen digital terintegrasi yang dirancang khusus untuk mempermudah proses peminjaman dan pengembalian laptop bagi taruna di sekolah kedinasan, dengan fitur-fitur seperti pendataan inventaris real-time, pelacakan status laptop, pengajuan peminjaman online, pelaporan kerusakan, serta monitoring riwayat pemakaian guna memastikan transparansi, akuntabilitas, dan efisiensi dalam pengelolaan aset teknologi akademi.
+Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplinan Taruna di lingkungan sekolah kedinasan, dengan menyediakan sistem pencatatan yang transparan dan efisien. Melalui antarmuka yang modern bertema identitas instansi, Taruna dapat dengan mudah melakukan pengajuan peminjaman menggunakan identitas NPM, memilih kategori laptop sesuai kebutuhan tugas atau laboratorium, hingga mengajukan penambahan jam malam melalui fitur yang praktis. Sistem ini juga dilengkapi dengan notifikasi konfirmasi instan serta tabel riwayat yang informatif untuk memantau status peminjaman secara real-time, guna memastikan seluruh fasilitas pendidikan terkelola dengan baik demi mendukung semangat belajar cerdas dan jiwa Pancasila.
 
 ### 🖇 Kisah Pengguna
 | PENGENAL | Kisah Pengguna | Prioritas |
@@ -75,7 +75,7 @@ Website aplikasi peminjaman dan pengembalian laptop taruna adalah sistem manajem
 ### 🔐 Akun Default
 
 ### ⚠️ Penyelesaian Masalah
-| Kesalahan | Solusi |
+| Mistake | Solusi |
 | :--- | :--- |
 | `SQLSTATE: no such table` | Jalankan `php artisan migrate` |
 | `Connection refused` | Pastikan MySQL di Laragon/XAMPP sudah aktif |
