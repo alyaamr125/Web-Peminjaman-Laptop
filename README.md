@@ -17,12 +17,23 @@ Website aplikasi peminjaman dan pengembalian laptop taruna adalah sistem manajem
 | **AS-08** | Sebagai Sistem, saya ingin menyediakan REST API agar data bisa diakses aplikasi lain. | Sedang |
 
 ### 📝 SRS (Spesifikasi Persyaratan Perangkat Lunak)
-1. **Sistem Autentikasi Data:** Validasi NPM dan Nama Taruna.
-2. **Form Peminjaman:** Input dinamis dengan pilihan kategori (Normal, Lab, dll).
-3. **Manajemen Riwayat:** Tabel dengan status berwarna (Kuning: Dipinjam, Hijau: Selesai).
-4. **Fitur Jam Malam:** Modal popup untuk input rentang waktu tambahan secara spesifik.
-5. **Notifikasi Interaktif:** Menggunakan SweetAlert2 untuk feedback aksi pengguna.
-6. **REST API Endpoint:** Menyediakan data JSON untuk integrasi sistem.
+### Persyaratan Fungsional
+| PENGENAL | Fitur | Deskripsi | Status |
+| :--- | :--- | :--- | :--- |
+| **FR-01** | Form Pinjam | Input Nama, NPM, dan Keterangan laptop secara dinamis. | ✅ Selesai |
+| **FR-02** | Riwayat | Tabel yang menampilkan Tgl Pinjam, Tgl Kembali, dan Status. | ✅ Selesai |
+| **FR-03** | Jam Malam | Modal popup khusus untuk mengatur rentang waktu jam malam. | ✅ Selesai |
+| **FR-04** | Pengembalian | Fitur satu klik untuk mengubah status laptop menjadi "Sudah Kembali". | ✅ Selesai |
+| **FR-05** | Notifikasi | Pop-up SweetAlert untuk konfirmasi sukses transaksi. | ✅ Selesai |
+| **FR-06** | REST API | Endpoint untuk integrasi data dengan aplikasi pihak ketiga. | ✅ Selesai |
+
+### Persyaratan Non-Fungsional
+| PENGENAL | Persyaratan | Deskripsi |
+| :--- | :--- | :--- |
+| **NFR-01** | Keamanan | Validasi input data Taruna dan perlindungan CSRF pada Laravel. |
+| **NFR-02** | Kegunaan | Desain responsif dengan skema warna Merah, Biru, dan Putih. |
+| **NFR-03** | Keandalan | Sinkronisasi waktu otomatis menggunakan timezone Asia/Jakarta. |
+| **NFR-04** | Interoperabilitas | Dukungan REST API untuk pertukaran data format JSON. |
   
 ### 📊 Diagram UML
 
