@@ -13,8 +13,6 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 | **AS-04** | Sebagai Taruna, saya ingin melihat status "Dipinjam" atau "Kembali" untuk memantau tanggungan. | Sedang |
 | **AS-05** | Sebagai Taruna, saya ingin mengajukan jam malam agar bisa menggunakan laptop lebih lama untuk kegiatan seperti akademik maupun organisasi. | Sedang |
 | **AS-06** | Sebagai Admin, saya ingin melihat semua riwayat peminjaman dalam satu tabel yang rapi. | Tinggi |
-| **AS-07** | Sebagai Admin, saya ingin memvalidasi pengembalian laptop agar stok tersedia kembali. | Tinggi |
-| **AS-08** | Sebagai Sistem, saya ingin menyediakan REST API agar data bisa diakses aplikasi lain. | Sedang |
 
 ### 📝 SRS (Spesifikasi Persyaratan Perangkat Lunak)
 ### Persyaratan Fungsional
