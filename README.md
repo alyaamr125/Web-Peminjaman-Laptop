@@ -34,6 +34,9 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 | **NFR-04** | Interoperabilitas | Dukungan REST API untuk pertukaran data format JSON. |
   
 ### 📊 Diagram UML
+Diagram Alur Penggunaan Website
+<img width="747" height="615" alt="Screenshot 2026-02-18 225834" src="https://github.com/user-attachments/assets/86693732-f867-4906-ac35-89ffb357b2b4" />
+
 
 ### 🖥 Maket/Tampilan Website
 1. Tampilan menu untuk mengisi identitas Taruna (Nama, NPM, dan Keterangan)
