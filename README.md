@@ -34,8 +34,14 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 | **NFR-04** | Interoperabilitas | Dukungan REST API untuk pertukaran data format JSON. |
   
 ### 📊 Diagram UML
-Diagram Alur Penggunaan Website
-<img width="747" height="615" alt="Screenshot 2026-02-18 225834" src="https://github.com/user-attachments/assets/86693732-f867-4906-ac35-89ffb357b2b4" />
+1. Usecase Diagram
+    <img width="6385" height="1965" alt="Sistem Peminjaman Laptop-2026-02-19-063552" src="https://github.com/user-attachments/assets/75d98682-2fe2-41ca-ab83-0eb0eacb2656" />
+
+3. Sequence Diagram
+   <img width="4660" height="4375" alt="Sistem Peminjaman Laptop-2026-02-19-063714" src="https://github.com/user-attachments/assets/5b23b7b3-bb83-450a-8bb8-39324f58ab4a" />
+
+5. Class Diagram
+   <img width="1282" height="1700" alt="Sistem Peminjaman Laptop-2026-02-19-063826" src="https://github.com/user-attachments/assets/22d69868-fe4e-4c11-ae04-dbc824f20e81" />
 
 
 ### 🖥 Maket/Tampilan Website
