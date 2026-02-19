@@ -44,7 +44,7 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
    <img width="1282" height="1700" alt="Sistem Peminjaman Laptop-2026-02-19-063826" src="https://github.com/user-attachments/assets/22d69868-fe4e-4c11-ae04-dbc824f20e81" />
 
 
-### 🖥 Maket/Tampilan Website
+### 🖥 Tampilan Website
 1. Tampilan menu untuk mengisi identitas Taruna (Nama, NPM, dan Keterangan)
    <img width="1920" height="971" alt="Screenshot 2026-02-01 194455" src="https://github.com/user-attachments/assets/0f8cfc1f-0f82-4732-8688-7820086b2279" />
 
@@ -82,6 +82,20 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 - Frontend: Tailwind CSS / Bootstrap
 - Database: MySQL
 - Icons & Pop-ups: SweetAlert2 (Untuk notifikasi "Berhasil!") dan FontAwesome/Heroicons.
+
+1. Clone repositori
+2. Install dependencies
+3. Set up `.env` dan jalankan migrasi:
+   - php artisan migrate
+5. Konfigurasi Basis Data
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=mylaptop_db
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+6. M
 
 
 ### ⚠️ Penyelesaian Masalah
