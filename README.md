@@ -78,6 +78,10 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 - Minggu 8: Testing, Security Audit (Validasi data NPM), & Deployment ke Laragon.
 
 ### 🛠 Instalasi
+Framework: Laravel 10/11 
+Frontend: Tailwind CSS / Bootstrap 
+Database: MySQL
+Icons & Pop-ups: SweetAlert2 (Untuk notifikasi "Berhasil!") dan FontAwesome/Heroicons.
 
 
 ### ⚠️ Penyelesaian Masalah
