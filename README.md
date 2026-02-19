@@ -60,7 +60,7 @@ Diagram Alur Penggunaan Website
 | **1. Perencanaan** | Pengumpulan syarat (Nama, NPM, Keterangan) | PRD, Cerita Pengguna |
 | **2. Analisis** | Spesifikasi sistem dan skema database | Daftar Fitur, Dokumen SRS |
 | **3. Desain** | Desain UI merah-biru dan ERD Database | UML, ERD, Maket UI |
-| **4. Pengembangan** | Coding Laravel dan REST API | Kode Sumber, Dokumentasi API |
+| **4. Pengembangan** | Coding Laravel | Kode Sumber |
 | **5. Pengujian** | Uji coba form dan notifikasi SweetAlert | Laporan Bug, Kasus Uji |
 
 ### ⏱️ Garis Waktu Proyek (8 Minggu)
