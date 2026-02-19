@@ -103,9 +103,6 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
   - `jam_malam`: Rentang waktu jam malam (format: HH:mm - HH:mm)
   - `status`: Status saat ini (Dipinjam / Sudah Kembali)
 
-### 🔎 Pengujian
-Jalankan semua tes:
-`php artisan serve`
 
 ### 📌Dokumentasi API (Backend)
 | Method | Endpoint | Deskripsi |
@@ -127,6 +124,10 @@ Contoh Request Body Jam Malam (PATCH)
   "jam_mulai": "22:00:00",
   "jam_selesai": "23:00:00"
 }`
+
+### 🔎 Pengujian
+Jalankan semua tes:
+`php artisan serve`
 
 ### 📜 Lisensi
     Lisensi Apache
