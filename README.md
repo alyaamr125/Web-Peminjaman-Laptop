@@ -103,11 +103,26 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 Jalankan semua tes:
 `php artisan serve`
 
-### 📌 REST API
+### 📌Dokumentasi API (Backend)
+| Method | Endpoint | Deskripsi |
+| :--- | :--- | :--- |
+| GET | /api/peminjaman | Mengambil semua riwayat peminjaman laptop. |
+| POST | /api/peminjaman | Membuat pengajuan peminjaman baru (Form Submit). |
+| PUT | /api/peminjaman/{id}/kembalikan | Memproses pengembalian laptop. |
+| PATCH | /api/peminjaman/{id}/jam-malam | Memperbarui durasi jam malam peminjaman. |
 
+Contoh Request Body (POST)
+`{
+  "nama_taruna": "Alya Mahiraah",
+  "npm": "2423101997",
+  "keterangan": "Normal"
+}`
 
-
-
+Contoh Request Body Jam Malam (PATCH)
+`{
+  "jam_mulai": "22:00:00",
+  "jam_selesai": "23:00:00"
+}`
 
 ### 📜 Lisensi
     Lisensi Apache
