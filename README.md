@@ -29,7 +29,7 @@ ___
 | **FR-03** | Jam Malam | Modal popup khusus untuk mengatur rentang waktu jam malam. | ✅ Selesai |
 | **FR-04** | Pengembalian | Fitur satu klik untuk mengubah status laptop menjadi "Sudah Kembali". | ✅ Selesai |
 | **FR-05** | Notifikasi | Pop-up SweetAlert untuk konfirmasi sukses transaksi. | ✅ Selesai |
-| **FR-06** | REST API | Endpoint untuk integrasi data dengan aplikasi pihak ketiga. | Progress |
+| **FR-06** | REST API | Endpoint untuk integrasi data dengan aplikasi pihak ketiga. | ✅ Selesai |
 
 ### Persyaratan Non-Fungsional
 | PENGENAL | Persyaratan | Deskripsi |
