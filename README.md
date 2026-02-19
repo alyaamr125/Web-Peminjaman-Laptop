@@ -97,7 +97,20 @@ Diagram Alur Penggunaan Website
 Jalankan semua tes:
 `php artisan serve`
 
-### 📌 Titik Akhir API REST
+### 📌 REST API
+## 🖥️ Preview & Mockup
+
+| Form Peminjaman | Modal Jam Malam |
+|---|---|
+| ![Form](url_gambar_1) | ![Modal](url_gambar_5) |
+
+## ⚙️ API Reference
+
+#### Get all items
+```http
+  GET /api/riwayat
+
+POST /api/peminjaman
 
 
 ### 📜 Lisensi
