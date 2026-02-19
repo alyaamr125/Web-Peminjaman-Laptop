@@ -129,6 +129,8 @@ Contoh Request Body Jam Malam (PATCH)
 Jalankan semua tes:
 `php artisan serve`
 
+Akses aplikasi di `http://127.0.0.1:8000` 
+
 ### 📜 Lisensi
     Lisensi Apache
                            Versi 2.0, Januari 2004
