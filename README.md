@@ -82,21 +82,27 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 - Frontend: Tailwind CSS / Bootstrap
 - Database: MySQL
 - Icons & Pop-ups: SweetAlert2 (Untuk notifikasi "Berhasil!") dan FontAwesome/Heroicons.
+___
 
 1. Clone repositori
-2. Install dependencies
-3. Set up `.env` dan jalankan migrasi:
-   - php artisan migrate
+   
+3. Install dependencies
+   ```env
+   composer install && npm install
+4. Set up `.env` dan jalankan migrasi:
+   ```env
+   php artisan migrate
 5. Konfigurasi Basis Data
+   ```env
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=mylaptop_db
     DB_USERNAME=root
     DB_PASSWORD=
-
-6. M
-
+6. Jalankan server:
+   ```env
+   php artisan serve
 
 ### ⚠️ Penyelesaian Masalah
 | Mistake | Solusi |
