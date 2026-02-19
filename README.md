@@ -77,6 +77,17 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 - Minggu 7: Development Sprint 3 (Integrasi REST API dan optimasi database).
 - Minggu 8: Testing, Security Audit (Validasi data NPM), & Deployment ke Laragon.
 
+### 🗂 Struktur Database
+- **peminjamans** (atau **loans**):
+  - `id`: Primary Key
+  - `nama`: Nama Taruna peminjam
+  - `npm`: Nomor Pokok Mahasiswa
+  - `keterangan`: Kategori laptop (Normal, Lab, dll)
+  - `tgl_pinjam`: Waktu mulai peminjaman
+  - `tgl_kembali`: Waktu pengembalian (nullable)
+  - `jam_malam`: Rentang waktu jam malam (format: HH:mm - HH:mm)
+  - `status`: Status saat ini (Dipinjam / Sudah Kembali)
+
 ### 🛠 Instalasi
 - Framework: Laravel 10/11 
 - Frontend: Tailwind CSS / Bootstrap
@@ -85,7 +96,8 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 ___
 
 1. Clone repositori
-   
+   ```env
+   git clone [https://github.com/username/peminjaman-laptop.git](https://github.com/username/peminjaman-laptop.git)
 3. Install dependencies
    ```env
    composer install && npm install
@@ -103,6 +115,8 @@ ___
 6. Jalankan server:
    ```env
    php artisan serve
+   
+Akses aplikasi di `http://127.0.0.1:8000` 
 
 ### ⚠️ Penyelesaian Masalah
 | Mistake | Solusi |
@@ -111,17 +125,6 @@ ___
 | `Connection refused` | Pastikan MySQL di Laragon/XAMPP sudah aktif |
 | `Class not found` | Jalankan `composer dump-autoload` |
 | `Internal Server Error` | Cek file `.env` dan pastikan database sudah terhubung |
-
-### 🗂 Struktur Database
-- **peminjamans** (atau **loans**):
-  - `id`: Primary Key
-  - `nama`: Nama Taruna peminjam
-  - `npm`: Nomor Pokok Mahasiswa
-  - `keterangan`: Kategori laptop (Normal, Lab, dll)
-  - `tgl_pinjam`: Waktu mulai peminjaman
-  - `tgl_kembali`: Waktu pengembalian (nullable)
-  - `jam_malam`: Rentang waktu jam malam (format: HH:mm - HH:mm)
-  - `status`: Status saat ini (Dipinjam / Sudah Kembali)
 
 
 ### 📌Dokumentasi API (Backend)
@@ -145,11 +148,6 @@ Contoh Request Body Jam Malam (PATCH)
   "jam_selesai": "23:00:00"
 }`
 
-### 🔎 Pengujian
-Jalankan semua tes:
-`php artisan serve`
-
-Akses aplikasi di `http://127.0.0.1:8000` 
 
 ### 📜 Lisensi
     Lisensi Apache
