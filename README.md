@@ -4,6 +4,9 @@ ALYAA MAHIRAAH | II RKS A | 2423101997
 ### 📂 Deskripsi
 Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplinan Taruna di lingkungan sekolah kedinasan, dengan menyediakan sistem pencatatan yang transparan dan efisien. Melalui antarmuka yang modern bertema identitas instansi, Taruna dapat dengan mudah melakukan pengajuan peminjaman menggunakan identitas NPM, memilih kategori laptop sesuai kebutuhan tugas atau laboratorium, hingga mengajukan penambahan jam malam melalui fitur yang praktis. Sistem ini juga dilengkapi dengan notifikasi konfirmasi instan serta tabel riwayat yang informatif untuk memantau status peminjaman secara real-time, guna memastikan seluruh fasilitas pendidikan terkelola dengan baik demi mendukung semangat belajar cerdas dan jiwa Pancasila.
 
+___
+
+
 ### 🖇 Kisah Pengguna
 | PENGENAL | Kisah Pengguna | Prioritas |
 | :--- | :--- | :--- |
@@ -13,6 +16,9 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 | **AS-04** | Sebagai Taruna, saya ingin melihat status "Dipinjam" atau "Kembali" untuk memantau tanggungan. | Sedang |
 | **AS-05** | Sebagai Taruna, saya ingin mengajukan jam malam agar bisa menggunakan laptop lebih lama untuk kegiatan seperti akademik maupun organisasi. | Sedang |
 | **AS-06** | Sebagai Admin, saya ingin melihat semua riwayat peminjaman dalam satu tabel yang rapi. | Tinggi |
+
+___
+
 
 ### 📝 SRS (Spesifikasi Persyaratan Perangkat Lunak)
 ### Persyaratan Fungsional
@@ -32,6 +38,9 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 | **NFR-02** | Kegunaan | Desain responsif dengan skema warna Merah, Biru, dan Putih. |
 | **NFR-03** | Keandalan | Sinkronisasi waktu otomatis menggunakan timezone Asia/Jakarta. |
 | **NFR-04** | Interoperabilitas | Dukungan REST API untuk pertukaran data format JSON. |
+
+___
+
   
 ### 📊 Diagram UML
 1. Usecase Diagram
@@ -43,6 +52,7 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 5. Class Diagram
    <img width="1282" height="1700" alt="Sistem Peminjaman Laptop-2026-02-19-063826" src="https://github.com/user-attachments/assets/22d69868-fe4e-4c11-ae04-dbc824f20e81" />
 
+___
 
 ### 🖥 Tampilan Website
 1. Tampilan menu untuk mengisi identitas Taruna (Nama, NPM, dan Keterangan)
@@ -58,6 +68,8 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
     <img width="1919" height="961" alt="Screenshot 2026-02-05 133839" src="https://github.com/user-attachments/assets/4ce58362-5d74-4ecd-81b5-e1137dd82dac" />
     <img width="1919" height="962" alt="Screenshot 2026-02-05 134233" src="https://github.com/user-attachments/assets/e669b601-4599-41c3-9863-6aafda97a1c9" />
 
+___
+
     
 ### 🔄 SDLC (Siklus Hidup Pengembangan Perangkat Lunak)
 
@@ -69,6 +81,8 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 | **4. Pengembangan** | Coding Laravel | Kode Sumber |
 | **5. Pengujian** | Uji coba form dan notifikasi SweetAlert | Laporan Bug, Kasus Uji |
 
+___
+
 ### ⏱️ Garis Waktu Proyek (8 Minggu)
 - Minggu 1: Planning & Analysis (Definisi aturan peminjaman dan jam malam).
 - Minggu 2: Design (ERD Database, Desain UI warna merah-biru-putih).
@@ -76,6 +90,8 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
 - Minggu 5-6: Development Sprint 2 (Fitur Tambahan: Modal Jam Malam, Pengembalian Otomatis).
 - Minggu 7: Development Sprint 3 (Integrasi REST API dan optimasi database).
 - Minggu 8: Testing, Security Audit (Validasi data NPM), & Deployment ke Laragon.
+
+___
 
 ### 🗂 Struktur Database
 - **peminjamans** (atau **loans**):
@@ -87,6 +103,8 @@ Website peminjaman laptop dirancang untuk mendukung produktivitas dan kedisiplin
   - `tgl_kembali`: Waktu pengembalian (nullable)
   - `jam_malam`: Rentang waktu jam malam (format: HH:mm - HH:mm)
   - `status`: Status saat ini (Dipinjam / Sudah Kembali)
+___
+
 
 ### 🛠 Instalasi
 - Framework: Laravel 10/11 
@@ -101,9 +119,10 @@ ___
 3. Install dependencies
    ```env
    composer install && npm install
-4. Set up `.env` dan jalankan migrasi:
+4. Konfigurasi Environment
    ```env
-   php artisan migrate
+   cp .env.example .env
+   php artisan key:generate
 5. Konfigurasi Basis Data
    ```env
     DB_CONNECTION=mysql
@@ -112,11 +131,19 @@ ___
     DB_DATABASE=mylaptop_db
     DB_USERNAME=root
     DB_PASSWORD=
-6. Jalankan server:
+6. Set up `.env` dan jalankan migrasi:
+   ```env
+   php artisan migrate
+7. Build Asset Frontend
+   ```env
+   npm run dev
+8. Jalankan server:
    ```env
    php artisan serve
    
 Akses aplikasi di `http://127.0.0.1:8000` 
+
+___
 
 ### ⚠️ Penyelesaian Masalah
 | Mistake | Solusi |
@@ -126,6 +153,7 @@ Akses aplikasi di `http://127.0.0.1:8000`
 | `Class not found` | Jalankan `composer dump-autoload` |
 | `Internal Server Error` | Cek file `.env` dan pastikan database sudah terhubung |
 
+___
 
 ### 📌Dokumentasi API (Backend)
 | Method | Endpoint | Deskripsi |
@@ -148,11 +176,14 @@ Contoh Request Body Jam Malam (PATCH)
   "jam_selesai": "23:00:00"
 }`
 
+___
 
 ### 📜 Lisensi
     Lisensi Apache
                            Versi 2.0, Januari 2004
                         http://www.apache.org/licenses/
+
+___
 
 ### ✏️ Penulis 
 Alyaa Mahiraah Ramadhani
